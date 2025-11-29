@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Felipe Romeu</title>
+    <title>Felipe Romeu - Currículo</title>
+
+    <style>
+        /* Fundo com gradiente */
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: linear-gradient(135deg, #4c5cff, #6ae2ff);
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* Card central */
+        .container {
+            max-width: 700px;
+            background: white;
+            margin: 60px auto;
+            padding: 35px;
+            border-radius: 18px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            animation: fadeIn 0.7s ease-in-out;
+        }
+
+        /* Animação suave */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            text-align: center;
+            color: #4c5cff;
+            margin-bottom: 10px;
+            font-size: 34px;
+        }
+
+        h2 {
+            margin-top: 25px;
+            color: #4a4a4a;
+            border-left: 6px solid #4c5cff;
+            padding-left: 10px;
+            font-size: 22px;
+        }
+
+        .info-item {
+            font-size: 19px;
+            margin: 12px 0;
+            padding: 12px;
+            background: #f0f3ff;
+            border-left: 5px solid #6a74ff;
+            border-radius: 8px;
+        }
+
+        b {
+            color: #222;
+        }
+
+        /* Hover efeito */
+        .info-item:hover {
+            background: #e0e6ff;
+            transition: 0.3s;
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <h1>Currículo</h1>
+
+        <h2>Dados Pessoais</h2>
+
+        <p class="info-item"><b>Nome:</b> Felipe Romeu</p>
+        <p class="info-item"><b>Telefone:</b> 510806263243</p>
+        <p class="info-item"><b>Email:</b> feliperomeu@gmail.com</p>
+    </div>
+
 </body>
 </html>
